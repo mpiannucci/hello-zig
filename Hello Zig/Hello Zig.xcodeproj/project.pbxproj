@@ -12,7 +12,7 @@
 		EB7881EA21BE033F00923AE4 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EB7881E821BE033F00923AE4 /* Main.storyboard */; };
 		EB7881EC21BE034000923AE4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EB7881EB21BE034000923AE4 /* Assets.xcassets */; };
 		EB7881EF21BE034000923AE4 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EB7881ED21BE034000923AE4 /* LaunchScreen.storyboard */; };
-		EB7881F821BE079600923AE4 /* hello-zig-ios-x86_64.a in Frameworks */ = {isa = PBXBuildFile; fileRef = EB7881F621BE035E00923AE4 /* hello-zig-ios-x86_64.a */; };
+		EB7881FE21BE0C2500923AE4 /* hello-zig-ios-universal.a in Frameworks */ = {isa = PBXBuildFile; fileRef = EB7881FD21BE0C2500923AE4 /* hello-zig-ios-universal.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -23,9 +23,9 @@
 		EB7881EB21BE034000923AE4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		EB7881EE21BE034000923AE4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		EB7881F021BE034000923AE4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		EB7881F621BE035E00923AE4 /* hello-zig-ios-x86_64.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = "hello-zig-ios-x86_64.a"; path = "../hello-zig-ios-x86_64.a"; sourceTree = "<group>"; };
 		EB7881F921BE07A600923AE4 /* hello-zig.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "hello-zig.h"; path = "../../hello-zig.h"; sourceTree = "<group>"; };
 		EB7881FA21BE08C300923AE4 /* Hello Zig-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Hello Zig-Bridging-Header.h"; sourceTree = "<group>"; };
+		EB7881FD21BE0C2500923AE4 /* hello-zig-ios-universal.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = "hello-zig-ios-universal.a"; path = "../hello-zig-ios-universal.a"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -33,7 +33,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				EB7881F821BE079600923AE4 /* hello-zig-ios-x86_64.a in Frameworks */,
+				EB7881FE21BE0C2500923AE4 /* hello-zig-ios-universal.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -43,7 +43,6 @@
 		EB7881D821BE033F00923AE4 = {
 			isa = PBXGroup;
 			children = (
-				EB7881F621BE035E00923AE4 /* hello-zig-ios-x86_64.a */,
 				EB7881E321BE033F00923AE4 /* Hello Zig */,
 				EB7881E221BE033F00923AE4 /* Products */,
 				EB7881F721BE079600923AE4 /* Frameworks */,
@@ -76,6 +75,7 @@
 		EB7881F721BE079600923AE4 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				EB7881FD21BE0C2500923AE4 /* hello-zig-ios-universal.a */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
