@@ -1,5 +1,5 @@
 const std = @import("std");
-const assertOrPanic = std.debug.assertOrPanic;
+const assert = std.debug.assert;
 
 // TODO Remove this workaround
 //comptime {
@@ -19,5 +19,9 @@ export fn subtract(a: i32, b: i32) i32 {
 }
 
 test "basic add functionality" {
-   assertOrPanic(add(3, 7) == 10);
+   assert(add(3, 7) == 10);
+}
+
+test "basic subtract functionality" {
+    assert(subtract(3, 7) == -4);
 }
