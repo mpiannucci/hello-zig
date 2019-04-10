@@ -28,5 +28,9 @@ class ViewController: UIViewController {
     @IBAction func incrementCount(_ sender: Any) {
         count = add(count, 1)
     }
+    
+    @IBAction func decrementCount(_ sender: Any) {
+        count = subtract(count, 1)
+    }
 }
 

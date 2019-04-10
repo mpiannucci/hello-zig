@@ -16,6 +16,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		EB12E8C1225D90E100431565 /* hello-zig-ios-x86_64.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "hello-zig-ios-x86_64.h"; path = "../../hello-zig-ios-x86_64.h"; sourceTree = "<group>"; };
 		EB7881E121BE033F00923AE4 /* Hello Zig.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Hello Zig.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		EB7881E421BE033F00923AE4 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		EB7881E621BE033F00923AE4 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -23,7 +24,6 @@
 		EB7881EB21BE034000923AE4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		EB7881EE21BE034000923AE4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		EB7881F021BE034000923AE4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		EB7881F921BE07A600923AE4 /* hello-zig.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "hello-zig.h"; path = "../../hello-zig.h"; sourceTree = "<group>"; };
 		EB7881FA21BE08C300923AE4 /* Hello Zig-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Hello Zig-Bridging-Header.h"; sourceTree = "<group>"; };
 		EB7881FD21BE0C2500923AE4 /* hello-zig-ios-universal.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = "hello-zig-ios-universal.a"; path = "../hello-zig-ios-universal.a"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -60,7 +60,7 @@
 		EB7881E321BE033F00923AE4 /* Hello Zig */ = {
 			isa = PBXGroup;
 			children = (
-				EB7881F921BE07A600923AE4 /* hello-zig.h */,
+				EB12E8C1225D90E100431565 /* hello-zig-ios-x86_64.h */,
 				EB7881E421BE033F00923AE4 /* AppDelegate.swift */,
 				EB7881E621BE033F00923AE4 /* ViewController.swift */,
 				EB7881E821BE033F00923AE4 /* Main.storyboard */,
