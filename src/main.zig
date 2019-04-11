@@ -18,10 +18,6 @@ export fn subtract(a: i32, b: i32) i32 {
     return a - b;
 }
 
-export const CounterObserver = extern struct {
-    pub context: *c_void,
-};
-
 export const CounterState = extern struct {
     pub count: i32,
 
@@ -37,10 +33,6 @@ export const CounterState = extern struct {
 
     export fn decrement(self: *CounterState) void {
         self.count -= 1;
-    }
-
-    export fn subscribe(self: *CounterState, new_subscriber: *CounterObserver) i32 {
-        return 0;
     }
 };
 
